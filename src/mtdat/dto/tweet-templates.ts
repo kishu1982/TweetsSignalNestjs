@@ -23,8 +23,8 @@ Momentum strong, but risk of pullback rises. CMP: \${CMP}`,
 Weekly oversold levels reached, market testing extremes. CMP: \${CMP}`,
   abovePercent10: `🚀 Significant Surge: \n Symbol: #\${Symbol} skyrockets over 10% intraday. Bulls fully in charge. \n Watch for potential breakout opportunities! CMP: \${CMP}`,
   abovePercent5: `✨ Solid move!: \n Symbol: #\${Symbol} jumps above 5% gain in a single session. – stay tuned for further developments! CMP: \${CMP}`,
-  belowPercent10: `⚠️ Major drop: \n Symbol: #\${Symbol} plunges over 10% in a single session. exercise caution and watch for potential rebounds! CMP: \${CMP}`,
-  belowPercent5: `📉 Sharp Decline: \n Symbol: #\${Symbol} drops over 5% intraday – heavy selling pressure. – stay alert for further developments! CMP: \${CMP}`,
+  belowPercent10: `⚠️ Major drop: \n Symbol: #\${Symbol} plunges over -10% in a single session. exercise caution and watch for potential rebounds! CMP: \${CMP}`,
+  belowPercent5: `📉 Sharp Decline: \n Symbol: #\${Symbol} drops over -5% intraday – heavy selling pressure. – stay alert for further developments! CMP: \${CMP}`,
 
   followUpString: ' #StockMarket #Trading #Investing #MarketTrends',
 };
