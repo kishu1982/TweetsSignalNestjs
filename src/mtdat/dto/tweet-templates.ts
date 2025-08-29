@@ -21,10 +21,10 @@ Key resistance turning into potential support? \n Trend reversal in sight – wa
 Momentum strong, but risk of pullback rises. CMP: \${CMP}`,
   Oversold: `📉 Oversold Alert: \n Symbol: #\${Symbol} under pressure!
 Weekly oversold levels reached, market testing extremes. CMP: \${CMP}`,
-  abovePercent10: `🚀 Significant Surge: \n Symbol: #\${Symbol} surges over 10% in a day! \n Strong bullish momentum – watch for potential breakout opportunities! CMP: \${CMP}`,
-  abovePercent5: `📈 Notable Gain: \n Symbol: #\${Symbol} rises over 5% in a day! \n Positive momentum – stay tuned for further developments! CMP: \${CMP}`,
-  belowPercent10: `⚠️ Sharp Decline: \n Symbol: #\${Symbol} drops over 10% in a day. \n Bearish trend confirmed – exercise caution and watch for potential rebounds! CMP: \${CMP}`,
-  belowPercent5: `📉 Notable Drop: \n Symbol: #\${Symbol} falls over 5% in a day. \n Negative momentum – stay alert for further developments! CMP: \${CMP}`,
+  abovePercent10: `🚀 Significant Surge: \n Symbol: #\${Symbol} skyrockets over 10% intraday. Bulls fully in charge. \n Watch for potential breakout opportunities! CMP: \${CMP}`,
+  abovePercent5: `✨ Solid move!: \n Symbol: #\${Symbol} jumps above 5% gain in a single session. – stay tuned for further developments! CMP: \${CMP}`,
+  belowPercent10: `⚠️ Major drop: \n Symbol: #\${Symbol} plunges over 10% in a single session. exercise caution and watch for potential rebounds! CMP: \${CMP}`,
+  belowPercent5: `📉 Sharp Decline: \n Symbol: #\${Symbol} drops over 5% intraday – heavy selling pressure. – stay alert for further developments! CMP: \${CMP}`,
 
   followUpString: ' #StockMarket #Trading #Investing #MarketTrends',
 };
