@@ -10,6 +10,9 @@ export class Mtdat {
   Symbol: string;
 
   @Column()
+  SymbolFullName: string;
+
+  @Column()
   sideType: string;
 
   @Column({ unique: true })
