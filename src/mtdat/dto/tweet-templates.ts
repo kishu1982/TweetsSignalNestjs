@@ -1,4 +1,33 @@
 export const tweetTemplates: Record<string, string> = {
+  Day_High: `📊 Market Update: #\${Symbol} #\${SymbolFullName} hit its intraday high. Potential momentum building - monitor for next moves! CMP #\${SymbolFullName}: \${CMP}`,
+  Day_Low: `📉 Market Update: #\${Symbol} #\${SymbolFullName} reached its intraday low. Monitor for rebounds or further declines. CMP: \${CMP}`,
+  '2WeekConsecCloseAboveHigh': `📈 Market Update: #\${Symbol} #\${SymbolFullName} closed above previous week’s high for two weeks. Upward trend observed. CMP: \${CMP}`,
+  '2WeekConsecCloseBelowLow': `📉 Market Update: #\${Symbol} #\${SymbolFullName} closed below previous week’s low for two weeks. Downward trend observed. CMP: \${CMP}`,
+  '2DayConsecCloseBelowLow': `📊 Market Update: #\${Symbol} #\${SymbolFullName} closed below previous day’s low for two days. Downward trend observed. CMP: \${CMP}`,
+  '2DayConsecCloseAboveHigh': `📊 Market Update: #\${Symbol} #\${SymbolFullName} closed above previous day’s high for two days. Upward trend observed. CMP: \${CMP}`,
+  EMA200Bull: `📈 Technical Update: #\${Symbol} #\${SymbolFullName} crossed above 200 EMA. Possible trend reversal - monitor for momentum. CMP: \${CMP} #TechnicalAnalysis`,
+  EMA200Bear: `📉 Technical Update: #\${Symbol} #\${SymbolFullName} crossed below 200 EMA. Downward trend observed. CMP: \${CMP} #TechnicalAnalysis`,
+  EMA100Bull: `📈 Technical Update: #\${Symbol} #\${SymbolFullName} crossed above 100 EMA. Possible trend reversal - monitor for momentum. CMP: \${CMP} #TechnicalAnalysis`,
+  EMA100Bear: `📉  Technical Update: #\${Symbol} #\${SymbolFullName} crossed below 100 EMA. Downward trend observed. CMP: \${CMP}
+ #TechnicalAnalysis`,
+  '3DayConsecCloseAboveHigh': `📈 Market Update: #\${Symbol} #\${SymbolFullName} closed above previous day’s high for three days. Upward trend observed. CMP: \${CMP}`,
+  '3DayConsecCloseBelowLow': `📉 Market Update: #\${Symbol} #\${SymbolFullName} closed below previous day’s low for three days. Downward trend observed. CMP: \${CMP}`,
+  Default: `📊 Market Update: \n Symbol: #\${Symbol} #\${SymbolFullName} at CMP : \${CMP}. \n Stay tuned for more insights!`,
+  '52WeekHigh': `📊 Market Update: #\${Symbol} #\${SymbolFullName} reached a 52-week high. Upward trend observed. CMP: \${CMP}`,
+  '52WeekLow': `📊 Market Update: #\${Symbol} #\${SymbolFullName} reached a 52-week low. Downward trend observed. CMP: \${CMP}`,
+  Overbought: `📈 Technical Update: #\${Symbol} #\${SymbolFullName} in overbought zone (weekly). Monitor for potential pullback. CMP: \${CMP} #TechnicalAnalysis`,
+  Oversold: `📉 Technical Update: #\${Symbol} #\${SymbolFullName} in oversold zone (weekly). Monitor for potential rebound. CMP: \${CMP} #TechnicalAnalysis`,
+  abovePercent10: `📈 Significant Surge: #\${Symbol} #\${SymbolFullName} gained over 10% intraday. Upward move observed. CMP: \${CMP}`,
+  abovePercent5: `📈 Solid move!: #\${Symbol} #\${SymbolFullName} gained over 5% intraday. Monitor for developments. CMP: \${CMP}`,
+  belowPercent10: `📉 Major drop:  #\${Symbol} #\${SymbolFullName} dropped over 10% intraday. Monitor for rebounds. CMP: \${CMP}`,
+  belowPercent5: `📉 Sharp Decline:  #\${Symbol} #\${SymbolFullName} dropped over 5% intraday. Monitor for developments. CMP: \${CMP}`,
+
+  followUpString:
+    ' (MT5, verify accuracy). Not financial advice. #Forex #ForexTrading #MarketAnalysis',
+};
+
+/*
+export const tweetTemplates: Record<string, string> = {
   Day_High: `🚨 Market Alert: \n Symbol: #\${Symbol} touched its intraday high.\n Momentum building – keep an eye on the next move! CMP #\${SymbolFullName} : \${CMP}`,
   Day_Low: `🚨 Market Alert: \n Symbol: #\${Symbol} dulls at the day’s bottom ⬇️
 . \n Caution advised – watch for potential rebounds or further declines! CMP #\${SymbolFullName} : \${CMP}`,
@@ -28,3 +57,4 @@ Weekly oversold levels reached, market testing extremes. CMP #\${SymbolFullName}
 
   followUpString: ' #StockMarket #Trading #Investing #MarketTrends',
 };
+*/
